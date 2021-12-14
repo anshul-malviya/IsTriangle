@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(243, 210, 20);
+    font-weight: bold;
+}
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+.content{
+    width: 50%;
+    margin-inline: auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 45em){
+    .content{
+        width: 100%;
+    }
+}
+input{
+    margin: .3rem 0 1.5rem 0;
+    padding: .4rem;
+}
+button{
+    padding: .5rem;
+    margin-bottom: 2rem;
+    background-color: tomato;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+span{
+    background-color: tomato;
+    color: black;
+}
